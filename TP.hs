@@ -122,7 +122,8 @@ despuesDeXEmpiezaConY año letra org = despuesDeX año org && empiezaConY letra 
 masDe50 :: (Organizacion-> Bool) -> [Organizacion] -> Bool
 masDe50 criterio orgs =  length (filter criterio orgs) > 50
 
-
+masDeX :: Int -> (Organizacion-> Bool) -> [Organizacion] -> Bool
+masDeX cant criterio orgs =  length (filter criterio orgs) > cant
 -- Dar diferentes ejemplos de consulta, en uno de ellos utilizando una expresiones lambda que exprese un nuevo criterio inventado. Justificar al utilidad del concepto de aplicacion parcial.
 
 

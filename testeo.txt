@@ -1,0 +1,37 @@
+masVieja orgDos orgTres 
+Resultado: UnaOrganizacion {index = 3, organizationId = "bFED1ADAE4bcC1", name = "Hester Ltd", website = "http://sullivan-reed.com/", country = "China", description = "Switchable scalable moratorium", founded = 1971, industry = "Public Safety", employees = 5287}
+
+
+organizacionMasVieja
+Resultado: UnaOrganizacion {index = 8, organizationId = "ccc93DCF81a31CD", name = "Mcintosh-Mora", website = "https://www.brooks.com/", country = "Heard Island and McDonald Islands", description = "Centralized attitude-oriented capability", founded = 1970, industry = "Import / Export", employees = 4389}
+
+cantEmp 
+Resultado: cantEmp orgUno orgDos
+8450
+
+totalDeEmpleados
+Resultado: 496486
+
+cantEmpAlt orgUno orgDos
+Resultado: 8450
+
+maxCantPlast1960
+Resultado: UnaOrganizacion {index = 58, organizationId = "Bf3F3f62c8aBC33", name = "Cherry PLC", website = "https://www.avila.info/", country = "Marshall Islands", description = "Persistent tertiary website", founded = 1980, industry = "Plastics", employees = 8245}
+
+ampliarOrgs
+Resultado:
+[UnaOrganizacion {index = 1, organizationId = "FAB0d41d5b5d22c", name = "Ferrell LLC", website = "https://price.net/", country = "Papua New Guinea", description = "Horizontal empowering knowledgebase", founded = 1990, industry = "Plastics", employees = 3848},UnaOrganizacion {index = 2, organizationId = "6A7EdDEA9FaDC52", name = "Mckinney Riley and Day", website = "http://www.hall-buchanan.info/", country = "Finland", description = "User-centric system-worthy leverage", founded = 2015, 
+industry = "Glass / Ceramics / Concrete", employees = 5447},UnaOrganizacion {index = 3, organizationId = "0bFED1ADAE4bcC1", name = "Hester Ltd", website = "http://sullivan-reed.com/", country = "China", description = "Switchable scalable moratorium", founded = 1971, industry = "Public Safety", employees = 5816},UnaOrganizacion {index = 4, organizationId = "2bFC1Be8a4ce42f", name = "Holder-Sellers", website = "https://becker.com/", country = "Turkmenistan", description = "De-engineered 
+systemic artificial intelligence", founded = 2004, industry = "Automotive", employees = 1013},UnaOrganizacion {index = 73, 
+organizationId = "dfcA1c84AdB61Ac", name = "Mccall-Holmes", website = "http://www.dean.com/", country = "Benin", description = "Object-based value-added database", founded = 2009, industry = "Legal Services", employees = 766},UnaOrganizacion {index = 74, organizationId = "208044AC2fe52F3", name = "Massey LLC", website = "https://frazier.biz/", country = "Suriname", description = "Configurable zero administration Graphical User Interface", founded = 1986, industry = "Accounting", employees = 5504},UnaOrganizacion {index = 75, organizationId = "f3C365f0c1A0623", name = "Hicks LLC", website = "http://alvarez.biz/", country = "Pakistan", description = "Quality-focused client-server Graphical User Interface", founded = 1970, industry = "Computer Software / Engineering", employees = 9328}]
+
+masDe50
+Resultado: masDe50 cantParEmp orgs : False
+masDe50 (nombreLargo 15) orgs:False
+masDe50 (nombreLargo 5) orgs : True
+masDe50 (empiezaConY 'a') orgs: False
+masDe50 (despuesDeXEmpiezaConY 2010 'c') orgs: False
+masDeX 30 (\org -> employees org > 5000) orgs : True
+
+orgRepetida
+Resultado:UnaOrganizacion {index = 100, organizationId = "e9eB5A60Cef8354", name = "Watkins-Kaiser", website = "http://www.herring.com/", country = "Togo", description = "Synergistic background access", founded = 2009, industry = "Financial Services", employees = 2785}
